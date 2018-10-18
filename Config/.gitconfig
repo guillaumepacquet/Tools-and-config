@@ -9,7 +9,8 @@
 	br = branch
 	ci = commit
 	cane = commit --amend --no-edit
-	please = push --force-with-lease	
+	please = push --force-with-lease
+	wip = commit -m 'WIP'
 # How to include this file in the git config
 #[include]
 #    path = ~/Documents/Projects/Tools-and-config/Config/.gitconfig
